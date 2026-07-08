@@ -75,3 +75,97 @@ Memory Controller
       ▼
 LPDDR5X DRAM
 ```
+
+---
+
+## Design Modules
+
+### CXL Interface
+- CXL.mem transaction handling
+- Packet decoding
+- Request generation
+
+### Bridge Logic
+- Address translation
+- Read/Write arbitration
+- Buffer management
+- Transaction scheduling
+
+### LPDDR5X Controller
+- ACT
+- PRE
+- READ
+- WRITE
+- REFRESH
+- Timing management
+
+### Verification
+- Functional simulation
+- RTL verification
+- Timing verification
+- Performance evaluation
+
+---
+
+## Development Flow
+
+```
+Architecture Design
+        │
+        ▼
+RTL Design (Verilog/SystemVerilog)
+        │
+        ▼
+Functional Verification
+        │
+        ▼
+Synthesis
+        │
+        ▼
+Static Timing Analysis
+        │
+        ▼
+Performance Evaluation
+```
+
+## Reference Papers
+
+### Primary Reference
+
+**CXL-GPU: Pushing GPU Memory Boundaries with the Integration of CXL Technologies**
+
+IEEE Micro, 2025
+
+Key Concepts:
+- CXL Root Complex
+- CXL Controller
+- Host Bridge
+- CXL.mem Architecture
+- RTL Implementation
+
+---
+
+### Supporting Reference
+
+**Ramulator 2.0: A Modern, Modular and Extensible DRAM Simulator**
+
+IEEE Computer Architecture Letters, 2024
+
+Key Concepts:
+- LPDDR5 Memory Model
+- DRAM Scheduling
+- Memory Controller
+- Timing Constraints
+- Performance Evaluation
+
+---
+
+
+## Author
+
+**SARATH K C**
+
+
+## License
+
+This repository is intended for academic and research purposes.
